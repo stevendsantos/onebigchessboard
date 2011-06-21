@@ -1,0 +1,36 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	background-color: #255;
+}
+
+body {
+	overflow: hidden;
+}
+
+.board {
+	position: absolute;
+	width: 384px;
+	height: 384px;
+	overflow: visible;
+}
+
+.board .row {
+	overflow: visible;
+	clear: both;
+}
+
+.board .cell {
+	float: left;
+	width: 48px;
+	height: 48px;
+	outline: 1px solid #222;
+}
+
+.board .white {
+	background-color: #aaa;
+}
+
+.board .black {
+	background-color: #333;
+}
